@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 
@@ -20,6 +21,11 @@ public class EmpList {
 		al.add(e2);
 		al.add(e3);
 		al.add(e4);
+		
+		System.out.println(al);
+		
+		System.out.println("+++++++++++++++++++++++++++");
+		
 		
 //		for(Employee ee:al) {
 //			System.out.println(ee.eno+ "," +ee.ename+ "," +ee.dept);

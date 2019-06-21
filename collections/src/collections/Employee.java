@@ -11,6 +11,10 @@ public class Employee {
 		this.ename = ename;
 		this.dept = dept;
 	}
+	@Override
+	public String toString() {
+		return "Employee [eno=" + eno + ", ename=" + ename + ", dept=" + dept + "]";
+	}
 	
 	
 
